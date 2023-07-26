@@ -10,6 +10,12 @@ function App() {
             <li>
               <a href="#" className='item-navegador'>Dan Brown</a>
             </li>
+            <li>
+              <a href="#" className='item-navegador-inactivo'>Otros autores</a>
+            </li>
+            <li>
+              <a href="#" className='item-navegador-inactivo'>Más vendidos</a>
+            </li>
           </ul>
         </nav>
         <Libro

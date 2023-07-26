@@ -38,6 +38,7 @@ table {
 
 .lista-navegador {
     display: flex;
+    padding: 1.5rem;
 }
 
 .lista-navegador > *:not(:last-child) {
@@ -45,9 +46,18 @@ table {
 }
 
 .item-navegador {
-    display: block;
+    display: flex;
+    margin-left: 0.75rem;
     padding: 0.5rem 0.75rem;
     border-radius: 0.375rem;
     background-color: #0ea5e9; /* Este color representa 'sky-500' en la paleta de colores por defecto de Tailwind CSS v2.2.16 */
     color: #ffffff;
+}
+
+.item-navegador-inactivo {
+    display: flex;
+    margin-left: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    background-color: rgb(248 250 252); /* Este color representa 'sky-500' en la paleta de colores por defecto de Tailwind CSS v2.2.16 */
 }
